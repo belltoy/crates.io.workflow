@@ -2,4 +2,4 @@
 
 rm -rf *.alfredworkflow
 
-zip -9 -r crates.io.alfredworkflow icon.png info.plist query.rb
+zip -9 -r search.rust.crates.alfredworkflow icon.png info.plist query.rb
