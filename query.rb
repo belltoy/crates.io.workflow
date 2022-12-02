@@ -8,7 +8,7 @@ REPO = "https://github.com/belltoy/search.rust.crates.alfredworkflow"
 USER_AGENT = "Alfred Workflow (#{REPO})"
 
 def query_crates_io(query)
-    uri = URI(CREATES_IO_BASE_URI + "/crates?per_page=10&sort=downloads&q=#{query}")
+    uri = URI(CREATES_IO_BASE_URI + "/crates?per_page=10&sort=relevance&q=#{query}")
     req = Net::HTTP::Get.new(uri)
     req['User-Agent'] = USER_AGENT
     res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|

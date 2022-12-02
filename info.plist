@@ -182,7 +182,7 @@ MIT or Apache-2
     <key>variablesdontexport</key>
     <array/>
     <key>version</key>
-    <string>0.1.0</string>
+    <string>0.1.1</string>
     <key>webaddress</key>
     <string>https://github.com/belltoy/search.rust.crates.alfredworkflow</string>
 </dict>
